@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DAO_DesignPattern.iml" filepath="$PROJECT_DIR$/DAO_DesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JBDC_DAO_DesignPattern.iml" filepath="$PROJECT_DIR$/JBDC_DAO_DesignPattern.iml" />
     </modules>
   </component>
 </project>
