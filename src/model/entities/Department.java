@@ -3,12 +3,12 @@ package model.entities;
 import java.io.Serializable;
 import java.util.Objects;
 
-public class Seller implements Serializable {
+public class Department implements Serializable {
 
     private Integer id;
     private String name;
 
-    public Department() {
+    public void Department() {
     }
 
     public Department(Integer id, String name) {
