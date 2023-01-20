@@ -23,8 +23,7 @@ This permits both layers to evolve separately without knowing anything about eac
 ## Project Description
 A small system of sales people and departments.
 
-This program will access the mySQL database and will allow you to manipulate the information contained in the tables.
-Access the data by making insertions, data recovery, updates.
+This program will access database and will allow you to manipulate the information contained in the tables and access the data by making insertions, data recovery, updates.
 
 ## What you need
  - Create a dataBase on mySQL or other similar. You can use the script `database.sql` in folder `resouces` to create database.
@@ -34,7 +33,6 @@ you only need to sustitute `jdbc` for the name of your data base.
  - You need to install the Java Connecor/J, import `mysql-connector-j-8.0.32` to your user library
 https://dev.mysql.com/downloads/connector/j/?os=26
 
- - The data base as two tables: `departement` and `seller` with with the respective fields.
  
  ## Project structure
  
