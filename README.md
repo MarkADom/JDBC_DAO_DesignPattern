@@ -50,10 +50,8 @@ https://dev.mysql.com/downloads/connector/j/?os=26
       - DepartmentDaoJDBC    
       - SellerDaoJDBC
 
-- Package `application`:
+ - Package `application`:
       - Program: tests for the Seller implementation
       - Program2: tests for the Department implementation
       
 
-
-.
