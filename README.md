@@ -2,6 +2,8 @@
 
 ### This rojectP is made for study and to be added to my personal Library of Implementations.
 
+## Description
+
 The Data Access Object (DAO) pattern is a structural pattern that allows us to isolate the application/business 
 layer from the persistence layer (usually a relational database but could be any other persistence mechanism) 
 using an abstract API.
