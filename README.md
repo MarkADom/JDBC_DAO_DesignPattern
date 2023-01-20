@@ -1,4 +1,5 @@
-# JDBC_DAO_DesignPattern
+# JDBC DAO Design Pattern 
+##This Repositoy is made for study and to be add to my personal Library of Implementation
 
 The Data Access Object (DAO) pattern is a structural pattern that allows us to isolate the application/business 
 layer from the persistence layer (usually a relational database but could be any other persistence mechanism) 
