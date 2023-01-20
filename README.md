@@ -33,9 +33,9 @@ https://dev.mysql.com/downloads/connector/j/?os=26
  - The data base as two tables: `departement` and `seller` with with the respective fields.
  
  - Package `DB`:
-      - DB class: Implements auxiliary static methods, get and close database connection, implements ResultSet(contains the data stored in table form) and Statement.
+      - DB class 
       - DBException: personalized exception.
-      - DBIntegretyException: ersonalized.entities
+      - DBIntegretyException: personalized exception
 
  - Package `model.entities`
       - Departement class
