@@ -1,5 +1,5 @@
 # JDBC DAO Design Pattern 
-This rojectP is made for study and to be added to my personal Library of Implementations.
+This Project is made for study and to be added to my personal Library of Implementations.
 
 ##  Description  
 
