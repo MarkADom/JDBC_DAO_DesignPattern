@@ -7,11 +7,11 @@ This rojectP is made for study and to be added to my personal Library of Impleme
 The JDBC API is a Java API that can access any kind of tabular data, especially data stored in a relational database.
 JDBC helps you to write Java applications that manage these three programming activities:
 
-  1.Connect to a data source, like a database
+  - Connect to a data source, like a database
 
-  2.Send queries and update statements to the database
+  - Send queries and update statements to the database
   
-  3.Retrieve and process the results received from the database in answer to your query
+  - Retrieve and process the results received from the database in answer to your query
 
 #### DAO
 The Data Access Object (DAO) pattern is a structural pattern that allows us to isolate the application/business 
