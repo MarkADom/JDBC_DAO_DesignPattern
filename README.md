@@ -34,9 +34,9 @@ https://dev.mysql.com/downloads/connector/j/?os=26
 
  - The data base as two tables: `departement` and `seller` with with the respective fields.
  
- - package `DB` contains:
-      - DB class: + Implements auxiliary astatic methods
-o                 + Get and close a database connection
+ - Package `DB` contains:
+      - DB class: - Implements auxiliary astatic methods
+o                 - Get and close a database connection
       - DBException: personalized exception.
       - DBIntegretyException: ersonalized.
 
