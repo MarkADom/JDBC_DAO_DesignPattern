@@ -49,13 +49,22 @@ public class SellerDaoJDBC implements SellerDao {
                             + "WHERE seller.Id = ?");
 
             st.setInt(1, id);
+            //executeQuery(), executes the above SQL command, and it's received by ResultSet.
             rs = st.executeQuery();
 
-            //Testing if something returns
-            if (rs.next()){
+            /*
+              Testing if any result came. If my query did not return any records, will be false.
+              Returning null, Seller with that Id don't exist. If true will return the row in the Query.
+              Browse data and instantiate objects, seller with a department.
+            */
+            if (rs.next()) {
+
+                //Object Department with  attributes defined.
                 Department dep = new Department();
                 dep.setId(rs.getInt("DepartmentId"));
                 dep.setName(rs.getString("DepName"));
+
+                //Object Seller with all attributes defined.
                 Seller obj = new Seller();
                 obj.setId(rs.getInt("Id"));
                 obj.setName(rs.getString("Name"));
@@ -66,11 +75,9 @@ public class SellerDaoJDBC implements SellerDao {
                 return obj;
             }
             return null;
-        }
-        catch (SQLException e) {
+        } catch (SQLException e) {
             throw new DbException(e.getMessage());
-        }
-        finally {
+        } finally {
             DB.closeStatement(st);
             DB.closeResultSet(rs);
         }
