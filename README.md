@@ -32,5 +32,12 @@ you only need to sustitute ´jdbc´ for the name of your data base.
  - You need to install the Java Connecor/J, import `mysql-connector-j-8.0.32` to your user library
 https://dev.mysql.com/downloads/connector/j/?os=26
 
+ - The data base as two tables: `departement` and `seller` with with the respective fields.
+ 
+ - package `DB` contains:
+      - DB class: + Implements auxiliary astatic methods
+o                 + Get and close a database connection
+      - DBException: personalized exception.
+      - DBIntegretyException: ersonalized.
 
 
