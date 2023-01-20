@@ -21,3 +21,7 @@ The API hides from the application all the complexity of performing CRUD operati
 This permits both layers to evolve separately without knowing anything about each other.
 
 ## Project Description
+This program will access the mySQL database and will allow you to manipulate the information contained in the tables.
+
+
+Create a dataBase on mySQL or other similar. After that you can use the script "database.sql" in folder `#ffffff` resouces
