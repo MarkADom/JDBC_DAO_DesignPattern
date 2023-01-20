@@ -23,11 +23,9 @@ This permits both layers to evolve separately without knowing anything about eac
 ## Project Description
 This program will access the mySQL database and will allow you to manipulate the information contained in the tables.
 
-
  - Create a dataBase on mySQL or other similar. You can use the script `database.sql` in folder `resouces` to create database.
 After date use the file ´db.properties´ to insert the correct info, your data base user and passord and in the `dburl=jdbc:mysql://localhost:3306/jdbc` 
 you only need to sustitute ´jdbc´ for the name of your data base.
-
 
  - You need to install the Java Connecor/J, import `mysql-connector-j-8.0.32` to your user library
 https://dev.mysql.com/downloads/connector/j/?os=26
@@ -55,6 +53,5 @@ https://dev.mysql.com/downloads/connector/j/?os=26
 - Package `application`:
       - Program: tests for the Seller implementation
       - Program2: tests for the Department implementation
-- 
 
 
