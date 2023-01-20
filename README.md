@@ -25,7 +25,7 @@ This program will access the mySQL database and will allow you to manipulate the
 
  - Create a dataBase on mySQL or other similar. You can use the script `database.sql` in folder `resouces` to create database.
 After date use the file `db.properties` to insert the correct info, your data base user, password and in the `dburl=jdbc:mysql://localhost:3306/jdbc` 
-you only need to sustitute ´jdbc´ for the name of your data base.
+you only need to sustitute `jdbc` for the name of your data base.
 
  - You need to install the Java Connecor/J, import `mysql-connector-j-8.0.32` to your user library
 https://dev.mysql.com/downloads/connector/j/?os=26
