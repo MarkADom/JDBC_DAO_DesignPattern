@@ -53,5 +53,7 @@ https://dev.mysql.com/downloads/connector/j/?os=26
 - Package `application`:
       - Program: tests for the Seller implementation
       - Program2: tests for the Department implementation
+      
+
 
 
